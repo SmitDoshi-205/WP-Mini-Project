@@ -134,8 +134,6 @@ const getClientDashboard = async (req, res) => {
     }
 };
 
-// ...existing code...
-
 const getClientInvoiceDetails = async (req, res) => {
     try {
         const { id } = req.params;
